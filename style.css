@@ -79,3 +79,41 @@ nav .right-links{
     border-radius: 5px;
     font-weight: bold;
 }
+
+/* MAIN */
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work h1{
+    font-size: 3rem;
+}
+.work .work-desc{
+    width: 35em;
+    text-align: center;
+}
+.work a{
+    margin-top: 2em;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 5em;
+    border: 2px solid #000;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #06945b;
+
+}
+.work > *{
+    padding: 15px 0;
+}
+.graph-partners img{
+    max-width: 20em;
+    margin-top: 4em;
+}
