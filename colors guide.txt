@@ -1,0 +1,8 @@
+#06945b green
+#68e5a2 lighy cyan
+#fae053 yellow
+#f1b280 soft pink
+#395be0 blue sphere
+
+Rajdhani font 
+> @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
