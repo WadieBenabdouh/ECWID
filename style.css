@@ -2,4 +2,44 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    /* list-style: none; */
+}
+/* HEADER */
+header .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 3em;
+}
+.left-cnt{
+    display: flex;
+    align-items: center;
+}
+.shopping-logo{
+    max-width: 3em;
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+.brand> *{
+    margin: 0 5px;
+}
+.trademark{
+    display: flex;
+    flex-direction: column;
+}
+nav .left-links{
+    display: flex;
+    list-style-type: none;
+}
+.left-links > *{
+    padding: 0 25px;
+}
+nav .right-links{
+    display: flex;
+    list-style-type: none;
+}
+.right-links > *{
+    padding: 0 25px;
 }
