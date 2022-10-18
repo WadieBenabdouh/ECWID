@@ -43,6 +43,13 @@ nav .left-links{
 }
 .left-links a{
     text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 3px #fc5f30 solid;
+    transition: all .1s;
+}
+.left-links a:hover{
+    border-bottom: 1px #d45b23 solid;
 }
 nav .right-links{
     display: flex;
@@ -52,6 +59,23 @@ nav .right-links{
     padding: 0 25px;
     text-decoration: none;
 }
-.right-links a{
+.right-links #mates{
     text-decoration: none;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 3px #22132c solid;
+    transition: all .1s;
+}
+.right-links #mates:hover{
+    border-bottom: 1px #685953 solid;
+}
+.right-links #promo{
+    text-decoration: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
 }
