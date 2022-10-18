@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
     /* list-style: none; */
 }
 /* HEADER */
@@ -21,6 +23,8 @@ header .header-container{
 .brand{
     display: flex;
     align-items: center;
+    /* space between the brand and left header links */
+    padding-right: 2em;
 }
 .brand> *{
     margin: 0 5px;
@@ -35,6 +39,10 @@ nav .left-links{
 }
 .left-links > *{
     padding: 0 25px;
+    text-decoration: none;
+}
+.left-links a{
+    text-decoration: none;
 }
 nav .right-links{
     display: flex;
@@ -42,4 +50,8 @@ nav .right-links{
 }
 .right-links > *{
     padding: 0 25px;
+    text-decoration: none;
+}
+.right-links a{
+    text-decoration: none;
 }
