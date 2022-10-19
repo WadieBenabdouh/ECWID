@@ -174,7 +174,7 @@ nav .right-links {
 .card-one .offer {
     display: flex;
     flex-direction: column;
-    outline: green solid 1px;
+    /* outline: green solid 1px; */
     position: relative;
 }
 
@@ -242,21 +242,27 @@ nav .right-links {
     background-color: #f1b280;
     border: #000 solid 1px;
     border-radius: 30px;
-    padding: 10px 40px;
+    padding: 20px 40px;
+    gap: 2em;
+    margin-top: 2em;
 }
 
 .tile .sell-svg {
     max-width: 10em;
     position: absolute;
-    top: -100px;
+    top: 18em;
+    /*PERFECT SHE LOOKS LIKE SHE'S SITTING*/
+    left: 43em;
 }
 
 .tile .quote {
     display: flex;
     flex-direction: column;
-    margin-top: 2em;
     width: 30em;
+}
 
+.quote>* {
+    padding: 10px 0;
 }
 
 .quote .avatar {
@@ -265,11 +271,12 @@ nav .right-links {
     align-items: center;
     gap: 10px;
 }
-/* TODO Stretch it */
-.avatar p{
-    font-size: 1rem;
-}
 
+.avatar p {
+    font-size: 1rem;
+    white-space: nowrap;
+    /*Thanks Discord :) it allows text stretching*/
+}
 
 .rating {
     display: flex;
