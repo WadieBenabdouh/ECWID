@@ -159,12 +159,14 @@ nav .right-links {
     margin-top: 4em;
 }
 
+
+
 /* SECTION FLASHES */
 .flashes {
     outline: red solid 2px;
     margin-top: 6em;
 }
-
+/* card-one */
 .flashes .card-one {
     display: flex;
     flex-direction: column;
@@ -245,6 +247,7 @@ nav .right-links {
     padding: 20px 40px;
     gap: 2em;
     margin-top: 2em;
+    margin-inline: -70px; /*Stretch the tile oustide*/
 }
 
 .tile .sell-svg {
@@ -283,3 +286,4 @@ nav .right-links {
     align-self: flex-end;
     gap: 2em;
 }
+/* card-two */
