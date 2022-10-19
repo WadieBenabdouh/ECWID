@@ -175,28 +175,35 @@ nav .right-links {
     display: flex;
     flex-direction: column;
     outline: green solid 1px;
+    position: relative;
 }
-.offer .offer-title > *{
+
+.offer .offer-title>* {
     padding: 5px 0;
 }
-.offer-title h2{
+
+.offer-title h2 {
     font-size: 2rem;
 }
-.offer-title p{
+
+.offer-title p {
     width: 30em;
 }
-.offer-title a{
+
+.offer-title a {
     background-color: #f1b280;
     color: #000;
     text-decoration: none;
-    display: inline-block; /*allows to respect padding of .offer-title elements*/
+    display: inline-block;
+    /*allows to respect padding of .offer-title elements*/
     padding: 10px 50px !important;
     border: solid #000 2px;
     border-radius: 50px;
     font-weight: bold;
     margin-top: 25px;
 }
-.offer-title a i{
+
+.offer-title a i {
     margin-left: 5px;
     text-align: center;
 }
@@ -218,7 +225,8 @@ nav .right-links {
     margin: 10px 0;
 }
 
-.facebook, .instagram{
+.facebook,
+.instagram {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -231,23 +239,40 @@ nav .right-links {
 
 .offer .tile {
     display: flex;
+    background-color: #f1b280;
+    border: #000 solid 1px;
+    border-radius: 30px;
+    padding: 10px 40px;
 }
 
 .tile .sell-svg {
     max-width: 10em;
+    position: absolute;
+    top: -100px;
 }
 
 .tile .quote {
     display: flex;
     flex-direction: column;
+    margin-top: 2em;
+    width: 30em;
+
 }
 
 .quote .avatar {
     max-width: 3em;
     display: flex;
     align-items: center;
+    gap: 10px;
 }
+/* TODO Stretch it */
+.avatar p{
+    font-size: 1rem;
+}
+
 
 .rating {
     display: flex;
+    align-self: flex-end;
+    gap: 2em;
 }
