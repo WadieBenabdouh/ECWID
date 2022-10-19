@@ -117,6 +117,8 @@ nav .right-links {
 .work .work-desc {
     width: 35em;
     text-align: center;
+    opacity: 0.8;
+    line-height: 1.5em;
 }
 
 .work a {
@@ -155,4 +157,30 @@ nav .right-links {
 .ill-sponsors img {
     max-width: 20em;
     margin-top: 4em;
+}
+
+/* SECTION FLASHES */
+.flashes .card-one{
+    display: flex;
+    flex-direction: column;
+    outline: red solid 1px;
+}
+.card-one .offer{
+    display: flex;
+    flex-direction: column;
+}
+
+.offer .social-media{
+    display: flex;
+}
+.social-media .scl-pic{
+    max-width: 8em;
+}
+
+.offer .tile{
+    display: flex;
+}
+.tile .quote{
+    display: flex;
+    flex-direction: column;
 }
