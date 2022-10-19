@@ -160,27 +160,94 @@ nav .right-links {
 }
 
 /* SECTION FLASHES */
-.flashes .card-one{
-    display: flex;
-    flex-direction: column;
-    outline: red solid 1px;
-}
-.card-one .offer{
-    display: flex;
-    flex-direction: column;
+.flashes {
+    outline: red solid 2px;
+    margin-top: 6em;
 }
 
-.offer .social-media{
+.flashes .card-one {
     display: flex;
+    flex-direction: column;
+    padding: 1em 15em;
 }
-.social-media .scl-pic{
+
+.card-one .offer {
+    display: flex;
+    flex-direction: column;
+    outline: green solid 1px;
+}
+.offer .offer-title > *{
+    padding: 5px 0;
+}
+.offer-title h2{
+    font-size: 2rem;
+}
+.offer-title p{
+    width: 30em;
+}
+.offer-title a{
+    background-color: #f1b280;
+    color: #000;
+    text-decoration: none;
+    display: inline-block; /*allows to respect padding of .offer-title elements*/
+    padding: 10px 50px !important;
+    border: solid #000 2px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.offer-title a i{
+    margin-left: 5px;
+    text-align: center;
+}
+
+.offer .social-media {
+    display: flex;
+    width: 35em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.social-media> :nth-child(1) {
+    /* outline: red solid 1px; */
+    padding-right: 5em;
+}
+
+.social-media>*>* {
+    margin: 10px 0;
+}
+
+.facebook, .instagram{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.social-media .scl-pic {
     max-width: 8em;
 }
 
-.offer .tile{
+.offer .tile {
     display: flex;
 }
-.tile .quote{
+
+.tile .sell-svg {
+    max-width: 10em;
+}
+
+.tile .quote {
     display: flex;
     flex-direction: column;
+}
+
+.quote .avatar {
+    max-width: 3em;
+    display: flex;
+    align-items: center;
+}
+
+.rating {
+    display: flex;
 }
