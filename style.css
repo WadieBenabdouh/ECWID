@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
 
+/* COLORS */
+:root {
+    --green: #06945b;
+    --light-cyan: #68e5a2;
+    --yellow: #fae053;
+    --soft-pink: #f1b280;
+    --blue-sphere: #395be0;
+}
+
+/* COLORS END */
+
 * {
     margin: 0;
     padding: 0;
@@ -163,9 +174,10 @@ nav .right-links {
 
 /* SECTION FLASHES */
 .flashes {
-    outline: red solid 2px;
+    /* outline: red solid 2px; */
     margin-top: 6em;
 }
+
 /* card-one */
 .flashes .card-one {
     display: flex;
@@ -220,7 +232,7 @@ nav .right-links {
 
 .social-media> :nth-child(1) {
     /* outline: red solid 1px; */
-    padding-right: 5em;
+    padding-right: 4em;
 }
 
 .social-media>*>* {
@@ -247,13 +259,14 @@ nav .right-links {
     padding: 20px 40px;
     gap: 2em;
     margin-top: 2em;
-    margin-inline: -70px; /*Stretch the tile oustide*/
+    margin-inline: -70px;
+    /*Stretch the tile oustide*/
 }
 
 .tile .sell-svg {
     max-width: 10em;
     position: absolute;
-    top: 18em;
+    top: 17em;
     /*PERFECT SHE LOOKS LIKE SHE'S SITTING*/
     left: 43em;
 }
@@ -269,10 +282,13 @@ nav .right-links {
 }
 
 .quote .avatar {
-    max-width: 3em;
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.quote .avatar .avatar-pic {
+    max-width: 3em;
 }
 
 .avatar p {
@@ -286,4 +302,109 @@ nav .right-links {
     align-self: flex-end;
     gap: 2em;
 }
+
 /* card-two */
+.flashes .card-two {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 15em;
+}
+
+.card-two .offer-two {
+    display: flex;
+    flex-direction: column;
+    /* outline: green solid 1px; */
+    position: relative;
+}
+
+.offer-two .offer-title-two>* {
+    padding: 5px 0;
+}
+
+.offer-title-two h2 {
+    font-size: 2rem;
+}
+
+.offer-title-two p {
+    width: 30em;
+}
+
+.offer-title-two a {
+    background-color: #68e5a2;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    /*allows to respect padding of .offer-title elements*/
+    padding: 10px 50px !important;
+    border: solid #000 2px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.offer-title-two a i {
+    margin-left: 5px;
+    text-align: center;
+}
+
+.offer-two .advertisers {
+    display: flex;
+    width: 35em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.advertisers> :nth-child(1) {
+    padding-right: 4em;
+}
+
+.offer-two .tile-two {
+    display: flex;
+    background-color: #68e5a2;
+    border: #000 solid 1px;
+    border-radius: 30px;
+    padding: 20px 40px;
+    gap: 2em;
+    margin-top: 2em;
+    margin-inline: -70px;
+    /*Stretch the tile oustide*/
+}
+
+.tile-two .quote-two {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+}
+
+.quote-two>* {
+    padding: 10px 0;
+}
+
+.quote-two .avatar-two {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote-two .avatar-two .avatar-pic {
+    max-width: 3em;
+}
+
+.avatar-two p {
+    font-size: 1rem;
+    white-space: nowrap;
+    /*Thanks Discord :) it allows text stretching*/
+}
+
+.tile-two .grow-svg {
+    max-width: 13em;
+    position: absolute;
+    top: 14.4em;
+    left: 43em;
+}
+.rating-two {
+    display: flex;
+    align-self: flex-end;
+    gap: 2em;
+}
