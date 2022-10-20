@@ -178,6 +178,10 @@ nav .right-links {
     margin-top: 6em;
 }
 
+.flashes>* {
+    margin: 3em 0;
+}
+
 /* card-one */
 .flashes .card-one {
     display: flex;
@@ -535,3 +539,5 @@ nav .right-links {
     align-self: flex-end;
     gap: 2em;
 }
+
+/* GRID SECTION */
