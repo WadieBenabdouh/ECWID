@@ -84,7 +84,7 @@ nav .right-links {
     text-decoration: none;
 }
 
-.right-links #mates {
+.right-links .mates {
     text-decoration: none;
     text-decoration: none;
     color: #000;
@@ -93,11 +93,11 @@ nav .right-links {
     transition: all .1s;
 }
 
-.right-links #mates:hover {
+.right-links .mates:hover {
     border-bottom: 1px #685953 solid;
 }
 
-.right-links #promo {
+.right-links .promo {
     text-decoration: none;
     text-decoration: none;
     color: #fff;
@@ -320,7 +320,6 @@ nav .right-links {
 .offer-two .offer-title-two>* {
     padding: 5px 0;
 }
-
 .offer-title-two h2 {
     font-size: 2rem;
 }
@@ -355,12 +354,17 @@ nav .right-links {
     margin-top: 4em;
 }
 
+.advertisers>*>* {
+    margin: 10px 0;
+}
+
 .advertisers> :nth-child(1) {
     padding-right: 4em;
 }
 
 .offer-two .tile-two {
     display: flex;
+    flex-direction: row-reverse;
     background-color: #68e5a2;
     border: #000 solid 1px;
     border-radius: 30px;
@@ -400,10 +404,132 @@ nav .right-links {
 .tile-two .grow-svg {
     max-width: 13em;
     position: absolute;
-    top: 14.4em;
+    top: 28em;
+    left: 1em;
+}
+
+.rating-two {
+    display: flex;
+    align-self: flex-end;
+    gap: 2em;
+}
+
+        /* CARD 3 */
+        /*  */
+.flashes .card-three {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 15em;
+}
+
+.card-three .offer-three {
+    display: flex;
+    flex-direction: column;
+    /* outline: green solid 1px; */
+    position: relative;
+}
+
+.offer-three .offer-title-three>* {
+    padding: 5px 0;
+}
+
+.offer-title-three h2 {
+    font-size: 2rem;
+}
+
+.offer-title-three p {
+    width: 30em;
+}
+
+.offer-title-three a {
+    background-color: #f1b280;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    /*allows to respect padding of .offer-title elements*/
+    padding: 10px 50px !important;
+    border: solid #000 2px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.offer-title-three a i {
+    margin-left: 5px;
+    text-align: center;
+}
+
+.offer-three .perks {
+    display: flex;
+    width: 35em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.perks> :nth-child(1) {
+    /* outline: red solid 1px; */
+    padding-right: 4em;
+}
+
+.perks>*>* {
+    margin: 10px 0;
+}
+
+.fast-secure,
+.shipping {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer-three .tile-three {
+    display: flex;
+    background-color: #f1b280;
+    border: #000 solid 1px;
+    border-radius: 30px;
+    padding: 20px 40px;
+    gap: 2em;
+    margin-top: 2em;
+    margin-inline: -70px;
+    /*Stretch the tile oustide*/
+}
+
+.tile-three .manage-svg {
+    max-width: 10em;
+    position: absolute;
+    top: 17em;
+    /*PERFECT SHE LOOKS LIKE SHE'S SITTING*/
     left: 43em;
 }
-.rating-two {
+
+.tile-three .quote-three {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+}
+
+.quote-three>* {
+    padding: 10px 0;
+}
+
+.quote-three .avatar-three {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote-three .avatar-three .avatar-pic {
+    max-width: 3em;
+}
+
+.avatar-three p {
+    font-size: 1rem;
+    white-space: nowrap;
+    /*Thanks Discord :) it allows text stretching*/
+}
+
+.rating-three {
     display: flex;
     align-self: flex-end;
     gap: 2em;
