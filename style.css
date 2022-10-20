@@ -320,6 +320,7 @@ nav .right-links {
 .offer-two .offer-title-two>* {
     padding: 5px 0;
 }
+
 .offer-title-two h2 {
     font-size: 2rem;
 }
@@ -414,8 +415,8 @@ nav .right-links {
     gap: 2em;
 }
 
-        /* CARD 3 */
-        /*  */
+/* CARD 3 */
+/*  */
 .flashes .card-three {
     display: flex;
     flex-direction: column;
@@ -485,7 +486,7 @@ nav .right-links {
 
 .offer-three .tile-three {
     display: flex;
-    background-color: #f1b280;
+    background-color: var(--blue-sphere);
     border: #000 solid 1px;
     border-radius: 30px;
     padding: 20px 40px;
@@ -496,11 +497,11 @@ nav .right-links {
 }
 
 .tile-three .manage-svg {
-    max-width: 10em;
+    max-width: 13em;
     position: absolute;
-    top: 17em;
+    top: 18em;
     /*PERFECT SHE LOOKS LIKE SHE'S SITTING*/
-    left: 43em;
+    left: 45em;
 }
 
 .tile-three .quote-three {
