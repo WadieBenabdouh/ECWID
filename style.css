@@ -580,6 +580,38 @@ nav .right-links {
     background-size: contain;
     background-position: center;
 }
+.pad{
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    height: 15em;
+    padding: 2em;
+    border-radius: 10px;
+    justify-content: center;
+}
+.pad .container{
+    display: flex;
+    flex-direction: column;
+}
+.pad .container > *{
+    padding: 5px;
+}
+.pad .container a{
+    text-decoration: none;
+    color: #000;
+    
+}
+.pad .container a i {
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
 .pad-five{
     grid-column: 1/4;
 }
