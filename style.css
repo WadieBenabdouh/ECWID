@@ -541,3 +541,45 @@ nav .right-links {
 }
 
 /* GRID SECTION */
+.grid-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5em;
+    margin: 10px 10em;
+}
+/* .grid-section > *{
+    outline: red solid 1px;
+} */
+.pad-one{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4em 1em;
+    border: #000 solid 1px;
+    border-radius: 50px;
+}
+.pad-one .description{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+}
+.pad-one .description h2{
+    width: 7em;
+}
+.pad-one .description > *{
+    padding: 10px;
+}
+.pad-one .numbers{
+    display: flex;
+    gap: 2em;
+    text-align: center;
+    height: 10em;
+    align-items: center;
+    background: url('img/world-map.svg') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.pad-five{
+    grid-column: 1/4;
+}
