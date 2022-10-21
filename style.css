@@ -587,23 +587,13 @@ nav .right-links {
     height: 15em;
     padding: 2em;
     border-radius: 10px;
-    justify-content: center;
+    justify-content: space-between;
 }
-.pad .container{
-    display: flex;
-    flex-direction: column;
+.pad .ticket > *{
+    margin: 10px 0;
 }
-.pad .container > *{
-    padding: 5px;
-}
-.pad .container a{
-    text-decoration: none;
-    color: #000;
-    
-}
-.pad .container a i {
-    margin-left: 5px;
-}
+
+
 
 
 

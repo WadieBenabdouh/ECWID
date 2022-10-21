@@ -8,6 +8,6 @@ Rajdhani font
 > @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
 
 grid icons :
-> headset : <i class="fa-regular fa-headset"></i>
-> app : <i class="fa-regular fa-boxes-stacked"></i>
-> mobile : <i class="fa-regular fa-mobile"></i>
+<box-icon name='support'></box-icon>
+<box-icon class="pad-icon" name='intersect'></box-icon>
+<box-icon class="pad-icon" name='mobile-alt'></box-icon>
