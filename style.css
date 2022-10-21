@@ -541,16 +541,17 @@ nav .right-links {
 }
 
 /* GRID SECTION */
-.grid-section{
+.grid-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5em;
     margin: 10px 10em;
 }
+
 /* .grid-section > *{
     outline: red solid 1px;
 } */
-.pad-one{
+.pad-one {
     grid-column: 1/4;
     display: flex;
     justify-content: space-around;
@@ -559,18 +560,22 @@ nav .right-links {
     border: #000 solid 1px;
     border-radius: 50px;
 }
-.pad-one .description{
+
+.pad-one .description {
     display: flex;
     flex-direction: column;
     width: 20em;
 }
-.pad-one .description h2{
+
+.pad-one .description h2 {
     width: 7em;
 }
-.pad-one .description > *{
+
+.pad-one .description>* {
     padding: 10px;
 }
-.pad-one .numbers{
+
+.pad-one .numbers {
     display: flex;
     gap: 2em;
     text-align: center;
@@ -580,7 +585,8 @@ nav .right-links {
     background-size: contain;
     background-position: center;
 }
-.pad{
+
+.pad {
     border: 1px solid #000;
     display: flex;
     flex-direction: column;
@@ -588,17 +594,20 @@ nav .right-links {
     padding: 2em;
     border-radius: 10px;
     justify-content: space-between;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
-.pad .ticket > *{
+
+.pad .ticket>* {
     margin: 10px 0;
 }
-.ticket p{
+
+.ticket p {
     font-size: 14px;
     opacity: 0.8;
 }
-.pad-link a{
+
+.pad-link a {
     text-decoration: none;
     color: #000;
     /* outline: red solid 2px; */
@@ -608,24 +617,58 @@ nav .right-links {
     border: 1px solid #000;
     border-radius: 10px;
 }
-.pad-link a:hover i{
+
+.pad-link a:hover i {
     padding-left: 10px;
     color: #fff;
 }
+
 .pad-link a i {
     padding-left: 5px;
     transition: all 0.3s;
 }
 
-
-
-
-
-
-
-
-
-
-.pad-five{
+.pad-five {
     grid-column: 1/4;
+}
+
+.pad-five .wrapper {
+    display: flex;
+    border: 1px solid #000;
+    padding: 3em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper .tag h3 {
+    width: 15em;
+    line-height: 1.5em;
+}
+
+.wrapper .side-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side-tag>* {
+    padding: 10px 0;
+}
+
+.side-tag a {
+    background-color: var(--yellow);
+    color: #000;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+.side-tag a i {
+    padding-left: 10px;
+}
+
+.side-tag p {
+    font-size: 0.8rem;
+    opacity: 0.5;
 }
