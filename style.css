@@ -588,9 +588,33 @@ nav .right-links {
     padding: 2em;
     border-radius: 10px;
     justify-content: space-between;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
 }
 .pad .ticket > *{
     margin: 10px 0;
+}
+.ticket p{
+    font-size: 14px;
+    opacity: 0.8;
+}
+.pad-link a{
+    text-decoration: none;
+    color: #000;
+    /* outline: red solid 2px; */
+    font-weight: bold;
+    background-color: #8f72a7;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.pad-link a:hover i{
+    padding-left: 10px;
+    color: #fff;
+}
+.pad-link a i {
+    padding-left: 5px;
+    transition: all 0.3s;
 }
 
 
